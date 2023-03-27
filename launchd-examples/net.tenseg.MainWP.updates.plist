@@ -8,7 +8,7 @@
 		<dict>
 			<key>PATH</key>
 			<string>
-				/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/Library/Apple/usr/bin:/usr/local/sbin</string>
+				/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/Library/Apple/usr/bin:/opt/local/sbin:/opt/homebrew/bin:/opt/homebrew/sbin</string>
 		</dict>
 		<key>Label</key>
 		<string>net.tenseg.MainWP.updates</string>
