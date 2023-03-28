@@ -11,10 +11,10 @@
 				/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/Library/Apple/usr/bin:/opt/local/sbin:/opt/homebrew/bin:/opt/homebrew/sbin</string>
 		</dict>
 		<key>Label</key>
-		<string>net.tenseg.MainWP.updates</string>
+		<string>net.tenseg.MainWP.health</string>
 		<key>ProgramArguments</key>
 		<array>
-			<string>{PATH_TO_updates.php}</string>
+			<string>{PATH_TO_health.php}</string>
 		</array>
 		<key>RunAtLoad</key>
 		<false />
@@ -22,7 +22,7 @@
 		<array>
 			<dict>
 				<key>Hour</key>
-				<integer>15</integer>
+				<integer>14</integer>
 				<key>Minute</key>
 				<integer>30</integer>
 			</dict>

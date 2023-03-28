@@ -18,9 +18,10 @@ Scripts designed to help notify of important information from a MainWP Dashboard
 The following scripts can be run to check for data on your MainWP dashboard:
 
 * `check-for-mainwp-updates.php`: reports on available updates the dashboard sees and notifies if there are any
+* `check-for-mainwp-health.php`: reports on any site health statuses that are not "Good" and notifies if there are any
 
 More inevitably to come...
 
 ## Launch Agents
 
-The ideal way to run these scripts is via `launchd`. Example plist files to be installed in `~/Library/LaunchAgents` can be found in `launchd-examples`.
+The ideal way to run these scripts is via `launchd`. Example plist files to be installed in `~/Library/LaunchAgents` can be found in `launchd-examples`. Just copy the files and edit the path to the PHP script.

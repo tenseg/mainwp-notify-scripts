@@ -14,7 +14,7 @@ function dash_config() {
 }
 
 /**
- * Gt data from the MainWP API
+ * Get data from the MainWP API
  *
  * @param string $path endpoint route
  * @return mixed false if error, otherwise retturned data
