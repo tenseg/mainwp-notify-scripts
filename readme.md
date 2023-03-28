@@ -17,8 +17,9 @@ Scripts designed to help notify of important information from a MainWP Dashboard
 
 The following scripts can be run to check for data on your MainWP dashboard:
 
-* `check-for-mainwp-updates.php`: reports on available updates the dashboard sees and notifies if there are any
+* `check-for-mainwp-updates.php`: reports on available updates and notifies if there are any
 * `check-for-mainwp-health.php`: reports on any site health statuses that are not "Good" and notifies if there are any
+* `check-for-mainwp-security.php`: reports on any site security issues and notifies if there are any
 
 More inevitably to come...
 
