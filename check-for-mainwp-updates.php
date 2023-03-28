@@ -30,7 +30,7 @@ foreach ( $site_updates as $site ) {
 	if ( !empty( $up ) ) {
 		$up_count = 0;
 		foreach ( $up as $u ) {
-			$up_count = $up_count + count( $u );
+			$up_count = $up_count + $u;
 		}
 		$num_updates = $num_updates + $up_count;
 	}

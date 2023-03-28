@@ -7,8 +7,8 @@
  */
 function dash_config() {
 	static $config = false;
-	if ( !$config && file_exists( 'config.json' ) ) {
-		$config = json_decode( file_get_contents( 'config.json' ), true );
+	if ( !$config && file_exists( __DIR__ . '/config.json' ) ) {
+		$config = json_decode( file_get_contents( __DIR__ . '/config.json' ), true );
 	}
 	return $config;
 }
